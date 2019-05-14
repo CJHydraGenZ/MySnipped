@@ -1,0 +1,67 @@
+{
+	"ajax": {
+		"prefix": "ajax",
+		"body": [
+			"$.ajax({\r",
+			"        url: '',\r",
+			"        type : '',\r",
+			"        dataType: '',\r",
+			"        data: {'',''},\r",
+			"        success: function (){\r",
+			"            \r",
+			"        }\r",
+			"    })"
+		],
+		"description": "shutcut ajax"
+	},
+	"docReady": {
+		"prefix": "docready",
+		"body": [
+			"$(document).ready(function(){\r",
+			"    \r",
+			"})"
+		],
+		"description": "shutcut documen ready"
+	},
+	"On click": {
+		"prefix": "Onclick",
+		"body": [
+			"$('').on('click',function(){\r",
+			"    \r",
+			"})"
+		],
+		"description": "shutcut onclick"
+	},
+	"KEyup": {
+		"prefix": "OnKeyup",
+		"body": [
+			"$('').on('keyup',function(e){\r",
+			"    if( e.keyCode == 13 ){\r",
+			"        //perintah\r",
+			"    }\r",
+			"})"
+		],
+		"description": "shutcut keyup"
+	},
+	"ajax Manual": {
+		"prefix": "ajaxManual",
+		"body": [
+			"// mangunakan ajax\r",
+			"let ajax = new XMLHttpRequest();\r",
+			"ajax.onreadystatechange = function () {\r",
+			"    if (ajax.readyState == 4 && ajax.status == 200) {\r",
+			"        // JSON.parse untuk menjadikan object\r",
+			"        // let mahasiswa = JSON.parse(this.responseText);\r",
+			"        // console.log(mahasiswa);\r",
+			"\r",
+			"    }\r",
+			"}\r",
+			"\r",
+			"// menjalankan ajax\r",
+			"// kosong adalah nama file\r",
+			"ajax.open('GET', '', true);\r",
+			"ajax.send();"
+		],
+		"description": "ajax Manual shutcut"
+	}
+}

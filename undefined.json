@@ -1,0 +1,9 @@
+{
+	"html": {
+		"prefix": "htmls",
+		"body": [
+			"htmlspecialchars()"
+		],
+		"description": "shutcut"
+	}
+}

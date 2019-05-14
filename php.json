@@ -1,0 +1,19 @@
+{
+	"Fast php": {
+		"prefix": "+php",
+		"body": [
+			"<?php \r",
+			"\r",
+			"?>"
+		],
+		"description": "ini untuk percepatan"
+	},
+	"SELECT * FROM TABLE ": {
+		"prefix": "thisGetArray",
+		"body": [
+			"// SELECT * FROM TABLE dan Mengembalikan array\r",
+			"$$this->db->get('table')->result_array();"
+		],
+		"description": "shutcut php"
+	}
+}

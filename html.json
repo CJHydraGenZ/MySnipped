@@ -1,0 +1,107 @@
+{
+	"div": {
+		"prefix": "+div",
+		"body": [
+			"<div>\r",
+			"    <ul>\r",
+			"        <li><a href=\"\"></a></li>\r",
+			"    </ul>\r",
+			"</div>"
+		],
+		"description": "sashashas"
+	},
+	"php": {
+		"prefix": "php",
+		"body": [
+			"<?php  \r",
+			"\r",
+			"\r",
+			"\r",
+			"\r",
+			"?>"
+		],
+		"description": "php tag"
+	},
+	"php echo": {
+		"prefix": "phpe",
+		"body": [
+			"<?= $;   ?>  "
+		],
+		"description": "php tag echo"
+	},
+	"php foreach": {
+		"prefix": "phpfore",
+		"body": [
+			"<?php foreach() : ?>\r",
+			"\r",
+			"<?php endforeach ?>"
+		],
+		"description": "php foreach"
+	},
+	"header location": {
+		"prefix": "pheader",
+		"body": [
+			" header(\"Location:   \");\r",
+			"    exit;"
+		],
+		"description": "untuk percepat header location"
+	},
+	"php if": {
+		"prefix": "phpi",
+		"body": [
+			"  <?php if(  )  : ?>\r",
+			"                \r",
+			"\r",
+			"        <?php endif ?>"
+		],
+		"description": "shortcut php if"
+	},
+	"mysqli connect": {
+		"prefix": "mysqli",
+		"body": [
+			"mysqli_connect();"
+		],
+		"description": "percepat "
+	},
+	"php while": {
+		"prefix": "phpw",
+		"body": [
+			"<?php while() :?>\r",
+			"        \r",
+			"        <?php endwhile ?>"
+		],
+		"description": "php shutcut while"
+	},
+	"form": {
+		"prefix": "forml",
+		"body": [
+			"<label for=\"email\">Email :</label>\r",
+			"                <input type=\"text\" name=\"email\" id=\"email\">"
+		],
+		"description": "shutcut form html"
+	},
+	"php for": {
+		"prefix": "phpp",
+		"body": [
+			"<?php for() :  ?>\r",
+			"\r",
+			"    <?php endfor ?>"
+		],
+		"description": "shutcut for"
+	},
+	"label": {
+		"prefix": "labelb",
+		"body": [
+			" <label for=\"nama\">nama</label>\r",
+			"                <input type=\"text\" name=\"nama\" id=\"nama\">"
+		],
+		"description": "shutcut label"
+	},
+	"br": {
+		"prefix": "brr",
+		"body": [
+			"echo \"<br>\";"
+		],
+		"description": "br fast"
+	}
+}
